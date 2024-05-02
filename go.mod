@@ -5,6 +5,7 @@ go 1.22.2
 require (
 	github.com/go-logr/logr v1.4.1
 	go.uber.org/fx v1.21.1
+	// github.com/Jacob-at-Ericsson-dot-com/helloworldchaos v0.0.0
 )
 
 require (
@@ -75,5 +76,5 @@ require (
 )
 
 replace (
-	github.com/Jacob-at-Ericsson-dot-com/helloworldchaos => ./controllers/chaosimpl/helloworldchaos
+	github.com/Jacob-at-Ericsson-dot-com/helloworldchaos => ./controllers/chaosimpl/helloworldchaos 
 ) 
